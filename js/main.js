@@ -22,7 +22,7 @@ $(function(){
 		
 		// 登录表单校验
 		loginBtn.click(function(){
-			if($('input[name="account"]').val()==='dream'&&$('input[name="password"]').val()==='dream'){
+			if($('input[name="account"]').val()==='admin'&&$('input[name="password"]').val()==='admin'){
 				showLayer(loginSuccess,250,40);
 			}else{
 				erro.text('Account or password input error');
