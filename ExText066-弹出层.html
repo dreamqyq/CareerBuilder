@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>弹出层效果实例</title>
+	<link rel="stylesheet" href="css/ExText066.css">
+	<script type="text/javascript" src="vendor/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="js/ExText066.js"></script>
+</head>
+<body>
+	<!-- 页头 -->
+	<div class="header">
+		<!-- logo图片 -->
+		<div class="logo">
+			<img src="img/66logo.png">
+		</div>
+		<!-- 导航 -->
+		<div class="nav">
+			<ul>
+				<li><a href="javascript:void(0)">CONTACT</a></li>
+				<li id="register"><a href="#">REGISTER</a></li>
+				<li id="login"><a href="#">LOGIN</a></li>
+				<li><a href="javascript:void(0)">GALLERY</a></li>
+				<li><a href="javascript:void(0)">ABOUT</a></li>				
+				<li><a href="javascript:void(0)">HOME</a></li>	
+			</ul>
+		</div>
+	</div>
+
+	<!-- 页面主体 -->
+	<div class="main">
+		<!-- banner图部分 -->
+		<div class="banner">
+			<!-- 底层 -->
+			<div class="b_layer">
+				<img src="img/66banner3.jpg">
+			</div>
+			<!-- 遮罩层 -->
+			<div class="b_top_layer"></div>
+			<!-- 上层内容 -->
+			<div class="b_content">
+				<form>
+					<input type="text" name="name" placeholder="your Name" />
+					<input type="text" name="phone" placeholder="your Phone" />
+					<input type="text" name="email" placeholder="your Email" />
+					<textarea type="textarea" name="comment" placeholder="Write Your Comment Here"></textarea>
+					<button>SEND MASSAGE</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- about部分 -->
+		<div class="about">
+			<!-- about中的上方文字 -->
+			<div class="a_top">
+				<h1>ABOUT</h1>
+				<hr/>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting<br/> industry.Lorem Ipsum has been the industry's standard dummy<br/>
+				 	text ever since the 1500s.
+				</p>
+			</div>
+			<!-- about中部图片 -->
+			<div class="a_middle">
+				<!-- 左边文字 -->
+				<div class="a_middle_l">
+					<p class="tit">A WORD<br/>ABOUT US</p>
+					<!-- 遮罩层 -->
+					<div class="l_layer"></div>
+					<!-- 内容层 -->
+					<div class="l_top_layer">
+						<p>
+						Praesent dignissim viverra est,sedbibendum ligula congue non.Sed ac nislet felis gravida commodo? Suspendisse eget ullamcorper ipsum.Suspendisse diam amet.
+						</p>
+						<button>EXPLORE</button>
+					</div>			
+				</div>
+				<!-- 中间图片 -->
+				<img class="a_middle_m" src="img/66bb3.jpg">
+				<!-- 右边部分 -->
+				<div class="a_middle_r">
+					<!-- 右上 -->
+					<div class="a_middle_r_top">
+						<p class="one">70000</p>
+						<hr/>
+						<p class="two">Students</p>
+					</div>
+					<!-- 右下 -->
+					<div class="a_middle_r_bottom">
+						<p class="one">600</p>
+						<hr/>
+						<p class="two">Faculty</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- about底部图片 -->
+			<div class="a_bottom">
+				<div class="ab_pic _tri">
+					<img src="img/66b1.jpg" >
+					<div class="left_tri"></div>
+				</div>
+				<div class="ab_pic ab_word">
+					<div class="word_wrapper">
+						<h3>Library</h3>
+						<h4>
+							Lorem lpsum is simply dummy text of the printing and typesetting industry
+						</h4>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<button>EXPLORE</button>
+				</div>
+				<div class="ab_pic _tri">
+					<img src="img/66b2.jpg">
+					<div class="left_tri"></div>
+				</div>
+				<div class="ab_pic ab_word">
+					<div class="word_wrapper">
+						<h3>Computer Lab</h3>
+						<h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry
+						</h4>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<button>EXPLORE</button>
+				</div>
+				<div class="ab_pic ab_word">
+					<div class="word_wrapper">
+						<h3>Conference Hall</h3>
+						<h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry
+						</h4>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<button>EXPLORE</button>
+				</div>
+				<div class="ab_pic _tri">
+					<img src="img/66b3.jpg">
+					<div class="right_tri"></div>
+				</div>
+				<div class="ab_pic ab_word">
+					<div class="word_wrapper">
+						<h3>Play Ground</h3>
+						<h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry
+						</h4>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<button>EXPLORE</button>
+				</div>
+				<div class="ab_pic _tri">
+					<img src="img/66b4.jpg">
+					<div class="right_tri"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<!-- gallery部分 -->
+		<div class="gallery">
+			<div class="g_word">
+				<h1>GALLERY</h1>
+				<hr>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				</p>
+			</div>
+			<div class="g_pic">
+				<dl>
+					<dt><img src="img/6603-01.jpg"></dt>
+					<dd>SCIENCE LAB</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/6603-02.jpg"></dt>
+					<dd>INDOOR STADIUM</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/6603-03.jpg"></dt>
+					<dd>TRSPORTATION</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/6603-04.jpg"></dt>
+					<dd>KIDS ROOM</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/6603-05.jpg"></dt>
+					<dd>MEDITATION CLASSES</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/6603-06.jpg"></dt>
+					<dd>KIDS PLAY GROUND</dd>
+				</dl>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 -->
+	<div class="footer">
+		<p>© 2016 imooc.com 京ICP备13046642号</p>
+	</div>
+
+
+	<!-- 弹出层 -->
+	<!-- 遮罩层 -->
+	<div class="pop-mask"></div>
+	<!-- 弹出内容框 -->
+	<div class="pop-layer">
+		<!-- 关闭按钮 -->
+		<div class="pop-close">×</div>
+		<!-- 内容部分 -->
+		<div class="pop-content"></div>
+	</div>
+
+	<!-- 弹出层内容部分 -->
+	<div class="pop-content-box">
+		<!-- 登录窗体 -->
+		<div class="login-window">
+			<div class="login-box">
+				<h2>LOGIN</h2>
+					<label>ACCOUNT</label>
+					<input type="text" name="account">
+					<br>
+					<label>PASSWORD</label>
+					<input type="password" name="password">
+					<br>
+					<p class="erro"></p>
+					<label>VERIFICATION</label>
+					<input type="text" name="verification">
+					<br>
+					<button class="btn login-btn">CONFIRM</button>
+			</div>
+		</div>
+		<!-- 注册窗体 -->
+		<div class="register-window">
+			<div class="register-box">
+				<h2>REGISTER</h2>
+					<label>ACCOUNT</label>
+					<input type="text" name="account">
+					<br>
+					<label>PASSWORD</label>
+					<input type="password" name="password">
+					<br>
+					<label>REPASSWORD</label>
+					<input type="password" name="repassword">
+					<br>
+					<p class="erro"></p>
+					<label>VERIFICATION</label>
+					<input type="text" name="verification">
+					<br>
+					<button class="btn register-btn">CONFIRM</button>
+			</div>
+		</div>
+		<!-- 登录成功 -->
+		<div class="qalert login-success">
+			<p>Login was successful!!</p>
+		</div>
+		<!-- 注册成功 -->
+		<div class="qalert register-success">
+			<p>Register was successful!!</p>
+		</div>
+	</div>
+	
+
+</body>
+</html>
